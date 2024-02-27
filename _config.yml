@@ -35,7 +35,7 @@ tagline: Welcome to hyjang's Blog!
 keywords:              []
 
 # A (square) logo for your site.
-# If provided, it will be shown at the top of the sidebar.
+# If provided, it will be shown at the top of the sidebar. 
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo1.png
 
