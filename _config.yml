@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title: hyjang's Git Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name: Jang Hyo Young
+  email: gydud25416@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -359,11 +359,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social: 
+  name: Jang Hyo Young
+  links:
+    - https://github.com/gydud25416
+    - https://www.notion.so/wiki-15bd847e0f284de89ad4ab04c5ee6438?pvs=12
 
 
 # Plugin Configs
