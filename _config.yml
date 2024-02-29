@@ -51,8 +51,6 @@ author:
 menu:
   - title: Test
     url: /test/
-  - title: Test2
-    url: /test/test2/
   - title:             Example
     url:               /example/
   - title:             Documentation
