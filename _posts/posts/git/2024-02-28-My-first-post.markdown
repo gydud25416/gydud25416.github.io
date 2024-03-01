@@ -2,7 +2,9 @@
 layout: post
 title:  "My first post !"
 date:   2024-02-28 00:56:43 +0900
-categories: test
+categories: 
+    - posts
+    - git
 ---
 
 Wellcom to My post!

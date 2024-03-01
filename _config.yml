@@ -49,8 +49,11 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Test
-    url: /test/
+  - title: Posts
+    url: /posts/
+    submenu:
+    - title: Git
+      ulr: /git/
   - title:             Example
     url:               /example/
   - title:             Documentation
