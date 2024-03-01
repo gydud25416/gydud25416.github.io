@@ -5,10 +5,10 @@ slug: Posts
 menu: true
 submenu: true
 description: >
-  게시글
+  전체 포스트
 ---
 
-# Subcat
+# Posts
 
 ## 카테고리
 
