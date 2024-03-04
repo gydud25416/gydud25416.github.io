@@ -3,6 +3,7 @@ layout: list
 bigtitle: Study
 slug: Study
 menu: true
+order: 1
 submenu: true
 description: >
   코딩 공부

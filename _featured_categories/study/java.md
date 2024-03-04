@@ -2,7 +2,7 @@
 layout: list
 category: posts
 bigtitle: Javascript
-slug: Javascript
+slug: javascript
 description: >
   Javascript study
 
