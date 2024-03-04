@@ -7,7 +7,9 @@ categories:
     - git
 ---
 
-# 1. Chery-pick commit
+# Git fork 앱으로 cherrypick commit 하기
+
+## 1. Chery-pick commit
 
 ### 1) git Cherry-pick이란?
 
