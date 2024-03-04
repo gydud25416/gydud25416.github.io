@@ -7,7 +7,7 @@ categories:
     - git
 ---
 
-# Git fork 앱으로 revert, reset 하기
+# Git fork 앱으로 revert, reset 하기 ⏱
 
 > 이전 돌아가고 싶은 커밋으로 가고 싶을 때 사용하거나, master 브랜치로 릴리즈를 했는데 치명적인 버그로 인하여 롤백해야 한느 경우 이전 커밋으로 되돌아가기 위해 사용한다.
 > 
