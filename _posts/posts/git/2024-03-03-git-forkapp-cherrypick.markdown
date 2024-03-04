@@ -37,15 +37,17 @@ master 브랜치에 **“애국가3절”** 브랜치를 추가하여 3절이 �
 > 
 
 ![Full-width image](/assets/img/git/1-1.png)
-  
----
 
-  
-🍒 **나의 목적은 “애국가” 브랜치에 빠진 3절을 “애국가 3절” 브랜치에서 가져와 master로 merge 시키는 것이다.**
+<br />
+
+
+
+🍒 **나의 목적은 “애국가” 브랜치에 빠진 3절을 “애국가 3절” 브랜치에서 가져와 master로 merge 시키는 것이다.** <br/>
 {:.note}
   
----
-  
+
+<br />
+
 ![Full-width image](/assets/img/git/1-2.png)
 
 “애국가” 브랜치를 checkout 한 후 “애국가 3절” 브랜치에 있는 애국가 3절을 추가한 커밋에서 cherry-pick Commit을 클릭했다.
