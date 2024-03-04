@@ -13,7 +13,7 @@ categories:
 
 ### 1) git Cherry-pick이란?
 
-1. this list will be replaced by the toc
+* this list will be replaced by the toc
 {:toc .large-only}
 
 - 제목과 마찬가지로 필요한 커밋만 골라서 가져오는 명령어다.

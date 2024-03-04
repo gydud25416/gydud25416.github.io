@@ -14,6 +14,9 @@ categories:
 
 ## reset, revert의 차이
 
+* this list will be replaced by the toc
+{:toc .large-only}
+
 - 둘다 이전 커밋으로 되돌린다는 점에서는 동일하지만
 다른 사람간의 코드 공유의 유(revert) 무(reset)에 따라 달라진다.
 
