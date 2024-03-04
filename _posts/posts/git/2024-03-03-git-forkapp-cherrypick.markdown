@@ -36,36 +36,36 @@ master 브랜치에 **“애국가3절”** 브랜치를 추가하여 3절이 �
 > 현재 fork 브랜치 상황
 > 
 
-![Full-width image](/assets/img/1-1.png)
+![Full-width image](/assets/img/git/1-1.png)
 
  
 🍒 나의 목적은 “애국가” 브랜치에 빠진 3절을 “애국가 3절” 브랜치에서 가져와 master로 merge 시키는 것이다.
 {:.note}
  
 
-![Full-width image](/assets/img/1-2.png)
+![Full-width image](/assets/img/git/1-2.png)
 
 “애국가” 브랜치를 checkout 한 후 “애국가 3절” 브랜치에 있는 애국가 3절을 추가한 커밋에서 cherry-pick Commit을 클릭했다.
 
-![Full-width image](/assets/img/1-3.png)
+![Full-width image](/assets/img/git/1-3.png)
 
 두 브랜치의 파일이 같고 수정 위치가 겹쳐 conflict가 일어났다.
 
-![Full-width image](/assets/img/1-4.png)
+![Full-width image](/assets/img/git/1-4.png)
 
 수정사항을 가져온 후 ‘현재 변경 사항 수락’을 클릭했다.
 
-![Full-width image](/assets/img/1-5.png)
+![Full-width image](/assets/img/git/1-5.png)
 
 이대로 수정사항을 commit 하여 “애국가” 브랜치의 파일을 확인한다.
 
-![Full-width image](/assets/img/1-6.png)
+![Full-width image](/assets/img/git/1-6.png)
 
 앞의 수정사항 모두 push한 후 master 브랜치를 checkout 하여 브랜치들을 merge시킨다.
 
-![Full-width image](/assets/img/1-7.png)
+![Full-width image](/assets/img/git/1-7.png)
 
-![Full-width image](/assets/img/1-8.png)
+![Full-width image](/assets/img/git/1-8.png)
 
 master 브랜치의 남은 test.html
 {:.figcaption}
