@@ -109,5 +109,5 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 ![Untitled](/assets/img/git/2-10.png)
 
 
-> 💫 reset은 커밋과 오류사항을 삭제 할 수 있다면, revert는 삭제에 더해서 수정까지 하여 commit을 남길 수 있다.
+> 💫 reset은 커밋과 오류사항을 삭제 할 수 있다면, revert는 **삭제에 더해서 수정까지** 하여 commit을 남길 수 있다.
 {:.lead}
