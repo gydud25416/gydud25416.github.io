@@ -9,7 +9,7 @@ description: >
   코딩 공부
 ---
 
-# Posts
+# Study
 
 ## 카테고리
 
