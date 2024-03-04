@@ -57,7 +57,7 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 
 
 
-> **soft reset**
+> **soft reset** <br/>
 > 💫 수정 사항이 stage에 있고 커밋이 보존된 상태
 {:.lead}
 
@@ -65,7 +65,7 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 
 <br/>
 
-> **mixed reset**
+> **mixed reset** <br/>
 > 💫 기본 옵션으로 수정 사항이 unstage에 있고 커밋이 보존된 상태
 {:.lead}
 
@@ -74,7 +74,7 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 <br/>
 
 
-> **hard reset**
+> **hard reset** <br/>
 > 💫 수정사항, 커밋 전부 삭제한다. 즉, 없었던 일로 만든다.
 {:.lead}
 
