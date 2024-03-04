@@ -43,7 +43,7 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 ![Untitled](/assets/img/git/2-1.png)
 
 
-💫 해당 3절과 4절에서 오타를 발견하여 2절로 되돌아가려고 한다.
+> 💫 해당 3절과 4절에서 오타를 발견하여 2절로 되돌아가려고 한다.
 {:.lead}
 
 #### - 공통점
@@ -52,26 +52,22 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 
 ![Untitled](/assets/img/git/2-2.png)
 
-#### - soft reset
 
 
-💫 수정 사항이 stage에 있고 커밋이 보존된 상태
+> ### soft reset
+> 💫 수정 사항이 stage에 있고 커밋이 보존된 상태
 {:.lead}
 
 ![Untitled](/assets/img/git/2-3.png)
 
-#### - mixed reset
-
-
-💫 기본 옵션으로 수정 사항이 unstage에 있고 커밋이 보존된 상태
+> ### - mixed reset
+> 💫 기본 옵션으로 수정 사항이 unstage에 있고 커밋이 보존된 상태
 {:.lead}
 
 ![Untitled](/assets/img/git/2-4.png)
 
-#### - hard reset
-
-
-💫 수정사항, 커밋 전부 삭제한다. 즉, 없었던 일로 만든다.
+> ### - hard reset
+> 💫 수정사항, 커밋 전부 삭제한다. 즉, 없었던 일로 만든다.
 {:.lead}
 
 ![Untitled](/assets/img/git/2-5.png)
@@ -102,5 +98,5 @@ master 브랜치에 “애국가” 브랜치를 만들어 1절부터 4절까지
 ![Untitled](/assets/img/git/2-10.png)
 
 
-💫 reset은 커밋과 오류사항을 삭제 할 수 있다면, revert는 삭제에 더해서 수정까지 하여 commit을 남길 수 있다.
+> 💫 reset은 커밋과 오류사항을 삭제 할 수 있다면, revert는 삭제에 더해서 수정까지 하여 commit을 남길 수 있다.
 {:.lead}
