@@ -13,6 +13,9 @@ categories:
 
 ### 1) git Cherry-pick이란?
 
+1. this list will be replaced by the toc
+{:toc .large-only}
+
 - 제목과 마찬가지로 필요한 커밋만 골라서 가져오는 명령어다.
 다른 브랜치에 있는 commit들 중에서 원하는 커밋만 내 브랜치로 가져와 수정사항을 커밋한다.
 참고로 커밋을 브랜치끼리 옮기는 것이 아니라 동일한 커밋을 복사하는 개념이다.
