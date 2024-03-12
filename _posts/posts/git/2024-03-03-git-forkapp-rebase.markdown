@@ -23,11 +23,11 @@ categories:
 
 브랜치 B에서 브랜치 A 로 merge를 시키려고 할 때 A에 있는 커밋이 없는 상태라 conflict가 생기게 된다.
 
-![Untitled](/assets/img/git/1.png)
+![Untitled](/assets/img/git/rebase/1.png)
 
 rebase를 하게 되면 **특정 브랜치 A**의 Head에 맞춰 그 뒤로 **브랜치 B**에서 쌓은 커밋들이 쌓이게 된다. 
 
-![Untitled](/assets/img/git/2.png)
+![Untitled](/assets/img/git/rebase/2.png)
 
 브랜치 B의 커밋이 달라지게 된다.
 
@@ -41,7 +41,7 @@ rebase를 하게 되면 **특정 브랜치 A**의 Head에 맞춰 그 뒤로 **
 애국가 제목을 추가한 브랜치를 root 브랜치로 merge하고자 하다.
 {:.lead}
 
-![Untitled](/assets/img/git/3.png)
+![Untitled](/assets/img/git/rebase/3.png)
 
 “애국가 제목추가” 브랜치를 “애국가 가사”브랜치에 merge시켰는데 merge가 되었다.
 
@@ -51,7 +51,7 @@ rebase를 하게 되면 **특정 브랜치 A**의 Head에 맞춰 그 뒤로 **
 > 💫 현재 main은 애국가 1절이고(root 브랜치) 2절 브랜치를 만든 후 merge를 시도했다.
 {:.lead}
 
-![Untitled](/assets/img/git/4.png)
+![Untitled](/assets/img/git/rebase/4.png)
 
 main으로 merge 시도하니 conflict가 일어나 abort 시켰다.
 
@@ -61,30 +61,30 @@ main으로 merge 시도하니 conflict가 일어나 abort 시켰다.
 해당 사항을 전부 수정 후 커밋한다.
 {:.lead}
 
-![Untitled](/assets/img/git/5.png)
+![Untitled](/assets/img/git/rebase/5.png)
 
-![Untitled](/assets/img/git/6.png)
+![Untitled](/assets/img/git/rebase/6.png)
 
-![Untitled](/assets/img/git/7.png)
+![Untitled](/assets/img/git/rebase/7.png)
 
 main 브랜치에 있던 커밋들이 전부 conflict되어 전부 수정한다.
 
-![Untitled](/assets/img/git/8.png)
+![Untitled](/assets/img/git/rebase/8.png)
 
 
 >💫 전부 수정하면 **애국가 2절 브랜치**에 root 브랜치(main) 커밋들이 추가된 채로 root 브랜치(main)로 합쳐진다.
 {:.lead}
 
-![Untitled](/assets/img/git/9.png)
+![Untitled](/assets/img/git/rebase/9.png)
 
 이대로 main 브랜치를 푸시하면 pull을 받아야하는 상황이 생겨 강제로 force push를 해야한다.
 
-![Untitled](/assets/img/git/10.png)
+![Untitled](/assets/img/git/rebase/10.png)
 
 push가 끝나면 **애국가 2절가사**를 base로하여 **main의 커밋들이 위로 쌓인것을 볼 수 있다.**
 
-![Untitled](/assets/img/git/11.png)
+![Untitled](/assets/img/git/rebase/11.png)
 
 github로 돌아가 결과물을 확인한다.
 
-![Untitled](/assets/img/git/12.png)
+![Untitled](/assets/img/git/rebase/12.png)
